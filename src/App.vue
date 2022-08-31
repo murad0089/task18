@@ -1,28 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header></Header>
+    <Hero></Hero>
+    <HereIsWhatYouGet></HereIsWhatYouGet>
+    <AboutFork></AboutFork>
+    <Subscription></Subscription>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue';
+import Hero from './components/Hero.vue';
+import HereIsWhatYouGet from './components/HereIsWhatYouGet.vue';
+import AboutFork from './components/AboutFork.vue';
+import Subscription from './components/Subscription.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Header,
+    Hero,
+    HereIsWhatYouGet,
+    AboutFork,
+    Subscription
+}
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+.backgroundimage{
+    background-image: url('Bg-images/img 1.png')
+}
+.aboutforkbg{
+    background-image: url('Bg-images/testmonials-bg\ 1.png');
+    background-size: cover;
+}
+.subscription{
+    background-image: url('Bg-images/Layer\ 2\ 1.png');
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@tailwind utilities;
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
